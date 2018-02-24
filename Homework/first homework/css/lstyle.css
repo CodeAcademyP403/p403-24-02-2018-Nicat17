@@ -1,0 +1,28 @@
+div .head{
+    text-align: center;
+}
+
+div > .head > p{
+    font-style: italic;
+    font-size: 30px;
+}
+
+div .main{
+    margin:20px 200px;
+    
+    
+}
+
+div > .main> .mr, .ml{
+    display:inline-block;
+    width: 580px;
+}
+
+div>.foot{
+    text-align: center;
+}
+div>.foot>button{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+}
